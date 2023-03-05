@@ -1,0 +1,30 @@
+@import "../../core/scss/variables";
+
+.search-input-wrapper {
+  .MuiFilledInput-root {
+    border-radius: 16px;
+    background-color: $search-input-bg;
+  }
+  input.MuiInputBase-input {
+    padding: 1rem 1rem 1rem 0 !important;
+  }
+  input.MuiInputBase-input::placeholder {
+    color: $search-input-placeholder !important;
+    font-family: "Poppins-Regular" !important;
+  }
+  .MuiFilledInput-root:hover {
+    opacity: 0.7;
+  }
+  .MuiSvgIcon-root {
+    color: $search-input-placeholder !important;
+  }
+}
+.input-small-w.search-input-wrapper {
+  min-width: 20rem;
+  @media #{$media-desktop} {
+    min-width: 10rem;
+  }
+  @media #{$media-mobile} {
+    min-width: 5rem;
+  }
+}

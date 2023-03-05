@@ -1,0 +1,29 @@
+@import "../../core/scss/variables";
+
+.movie-card {
+    .card {
+        border-radius: 0px;
+        box-shadow: none;
+        border: none;
+    }
+
+    .movie-name {
+        font-size: 0.8rem;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 16px;
+        color: $black;
+    }
+    .rate {
+        position: absolute;
+        background-color: $blue;
+        color: $white;
+        font-weight: bold;
+        top: 0px;
+        right: 0px;
+        padding: 4px;
+    }
+}
+.MuiGrid-container {
+    justify-content: center;
+}

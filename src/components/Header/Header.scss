@@ -1,0 +1,60 @@
+@import "../../core/scss/variables";
+
+.nav-bar-container {
+  & > div {
+    height: 4rem;
+  }
+  .nav-item {
+    text-transform: capitalize;
+    color: $black;
+    font-weight: bold;
+  }
+
+  .logo {
+    width: 100px;
+    height: 100px;
+  }
+
+  .container {
+    justify-content: "space-between";
+  }
+  .nav-bar {
+    padding: 10px 6rem;
+    background-color: $white;
+    @media #{$media-tablet} {
+      padding: 10px 3rem;
+      flex-direction: row;
+    }
+    @media #{$media-mobile} {
+      padding: 10px 1.5rem;
+      flex-direction: row-reverse;
+    }
+  }
+}
+
+.MuiTypography-root {
+  font-weight: bold !important;
+}
+.nav-items-container {
+  font-size: 0.875rem;
+  @media #{$media-tablet} {
+    font-size: 0.8rem;
+  }
+
+  @media #{$media-mobile} {
+    font-size: 0.8rem;
+  }
+}
+.MuiToolbar-root {
+  height: 10px;
+}
+.MuiListItemButton-root {
+  text-align: start !important;
+}
+.css-xi606m {
+  text-align: start !important;
+  padding: 20px 20px 0px 20px;
+}
+.MuiButtonBase-root-MuiButton-root {
+  text-transform: capitalize;
+}

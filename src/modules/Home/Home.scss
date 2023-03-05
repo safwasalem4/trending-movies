@@ -1,0 +1,35 @@
+@import "../../core/scss/variables";
+
+.home-screen {
+  .filter-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: $cancelled;
+    padding: 2rem 6rem;
+    width: 100%;
+    @media #{$media-tablet} {
+      padding: 1.5rem 3rem;
+    }
+    @media #{$media-mobile} {
+      padding: 0.8rem 1.5rem;
+    }
+  }
+  .main-screen {
+    padding: 4rem 5.2rem;
+    align-items: center;
+    justify-content: center;
+
+    @media #{$media-tablet} {
+      padding: 3rem 3rem;
+    }
+
+    @media #{$media-mobile} {
+      padding: 2rem 1.5rem;
+    }
+
+    .title {
+      font-weight: bold;
+      padding-bottom: 60px;
+    }
+  }
+}
