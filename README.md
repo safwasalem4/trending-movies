@@ -1,6 +1,10 @@
 ## Available Scripts
 
-In the project directory, you can run:
+In the project directory, first run:
+
+### `yarn install`
+
+Then, you can run:
 
 ### `yarn start`
 
